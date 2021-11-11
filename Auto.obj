@@ -1,0 +1,32 @@
+#Vertices
+v 2 0.5 1     #A
+v 2 0.5 -1    #B
+v 2 -0.5 1    #c
+v 2 -0.5 -1   #D
+v -2 0.5 1    #E
+v -2 0.5 -1   #F
+v -2 -0.5 1   #G
+v -2 -0.5 -1  #H
+v 0.5 0.5 1   #I
+v 0.5 0.5 -1  #J
+v -0.5 0.5 1  #K
+v -0.5 0.5 -1  #L
+v 0.5 1 1     #M
+v 0.5 1 -1    #N
+v -0.5 1 1    #O
+v -0.5 1 -1   #P
+
+#Faces
+
+f 3 1 5 7       #Positive Z Side Bottom Part
+f 9 13 15 11    #Positive Z Side Top part
+f 2 4 8 6       #Negative Z Side Bottom part
+f 10 12 16 14   #Negative Z Side Top Part
+f 3 4 2 1       #Front Side Positive X
+f 5 6 8 7       #Front Side Negative X
+f 6 5 11 12
+f 1 2 10 9
+f 9 10 14 13
+f 12 11 15 16
+f 15 13 14 16
+f 7 8 4 3
